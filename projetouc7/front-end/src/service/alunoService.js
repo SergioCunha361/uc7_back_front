@@ -17,3 +17,7 @@ export const excluirTodos = async() => axios.delete(`${API_URL}/aluno`);
 // router.get("/aluno/:matricula", AlunoController.listarPorMatricula)
 // router.delete("/aluno/:matricula", AlunoController.excluirPorMatricula)
 // router.delete("/aluno", AlunoController.excluirTodos)
+
+
+//.env
+//VITE_API_URL = http://localhost:3000
